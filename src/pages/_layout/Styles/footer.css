@@ -1,0 +1,71 @@
+footer {
+  width: 100%;
+  padding-top: 30px;
+  background-color: rgb(214, 246, 255);
+  color: white;
+  background-position: initial;
+  position: relative;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.generalInfoF{
+  display: flex;
+  margin: 30px;
+
+}
+
+.socialNetworks{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialNetworkImgs{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer a:hover,
+footer a:focus {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+}
+
+
+.footer {
+  margin-left: 20px;
+  position: relative;
+  height: 350px;
+  margin-top: 40vh;
+  width: 100%;
+  bottom: 0;
+  box-sizing: border-box;
+
+}
+
+.socialNetworkImg {
+  width: 50px;
+  height: 50px;
+}
+
+.LogoImgFooter {
+  margin-left: 30px;
+  height: 100px;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+
+.socialNetworkImg {
+  background-color: rgba(255, 255, 255, 0.21);
+  --icon-padding: 0.6em;
+  border-radius: 40%;
+}
